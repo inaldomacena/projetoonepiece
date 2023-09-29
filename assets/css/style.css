@@ -31,15 +31,14 @@ main .personagem .imagem{
 
 
 .conteudo{
-    
     position: absolute;
     top: 0;
     left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
-    min-width: 380px;
+    min-height:100vh;
+    max-width:380px;
     z-index: 1;
 }
 
